@@ -79,9 +79,10 @@
         "https://graal.ens-lyon.fr/MUMPS/MUMPS_5.5.0.tar.gz"
       ]
     },
-    "5.5.1": {
+      "5.5.1": {
       "sha256": "1abff294fa47ee4cfd50dfd5c595942b72ebfcedce08142a75a99ab35014fa15",
-      "urls": [
+	  "urls": [
+	"http://opensees.berkeley.edu/OpenSees/code/MUMPS_5.5.1.tar.gz",
         "http://mumps.enseeiht.fr/MUMPS_5.5.1.tar.gz",
         "https://graal.ens-lyon.fr/MUMPS/MUMPS_5.5.1.tar.gz"
       ]
