@@ -60,7 +60,7 @@ elseif(CMAKE_Fortran_COMPILER_ID STREQUAL "GNU")
   # MS-MPI emits extreme amounts of nuisance warnings
 
   if(NOT CMAKE_CROSSCOMPILING)
-    add_compile_options(-mtune=native)
+#    add_compile_options(-mtune=native)
   endif()
 
   if(intsize64 AND DEFINED ENV{I_MPI_ROOT})
